@@ -1,0 +1,9 @@
+<!-- 
+Reflection:
+I used ChatGPT using this prompt:
+"Create an 'About Me' section for a portfolio website using HTML and CSS only (no JavaScript). PROMPT: It should include: - A profile photo on the left (use a placeholder image for now) - My name as a heading - A short bio paragraph - A list of 4 skills displayed as tags/badges - Use 'lorem ipsum' instead of my information and I can enter that in later. Make it responsive — should stack vertically on mobile. Use a modern, clean design with a light color scheme. Add comments explaining the CSS."
+
+I used 2 prompts. I made customizations: one to the background, changing it to pink. I changed the intensity of the shadow of the card and also changed the shadow color to a dark pink. I changed the font to Poppins. I added a hover animation to the skill tags, making them pink and enlarged on hover. I changed the spacing very slightly to better fit the image. 
+
+AI taught me that instead of trying to host images in other software or trying to get a unique, crazy long URL, since I am using GitHub I don’t have to go through all that. I can upload my image there and use it in code so that it just pulls it by using the name and .jpg, which is a lot easier.
+-->
