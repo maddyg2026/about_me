@@ -1,0 +1,91 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling with light background */
+body {
+  background-color: #FFC0CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main container */
+.about-container {
+  display: flex; /* Places image and text side by side */
+  align-items: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgb(170,50,106);
+  max-width: 800px;
+  width: 100%;
+  gap: 30px; /* Space between image and text */
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 250px;
+  height: 300px;
+  border-radius: 30%; /* Makes image circular */
+  object-fit:cover;
+  display:block;
+}
+
+/* Text content area */
+.about-content {
+  flex: 1; /* Allows content to take remaining space */
+}
+
+/* Name heading */
+.about-content h1 {
+  font-family: 'Poppins';
+  font-size: 1.8rem;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+/* Bio paragraph */
+.about-content p {
+  color: #111827;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Skills container */
+.skills {
+  display: flex;
+  flex-wrap: wrap; /* Allows tags to wrap onto new lines */
+  gap: 10px;
+}
+
+.skill {
+      background-color: #e5e7eb;
+      color: #111827;
+      padding: 6px 12px;
+      border-radius: 999px; /* Pill shape */
+      font-size: 0.85rem;
+      transition: all 0.3s ease; /* Smooth hover animation */
+      cursor: pointer;
+    }
+
+    /* Hover effect for skill badges */
+    .skill:hover {
+      background-color: #f9a8d4; /* Soft pink */
+      transform: scale(1.1); /* Slight enlargement */
+      color: #111827;
+    }
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+}
